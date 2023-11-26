@@ -16,6 +16,9 @@ body{
 .section1 a{
     display: none;
 }
+.section1 .nav img{
+    display: none;
+}
 .navbar{
     position: absolute;
     top: 0;
@@ -670,11 +673,17 @@ footer .footer_3{
         width: 100%;
         z-index: 10;
     }
+    .section1 .nav img{
+        display: block;
+    }
     .section1 .nav button{
         border: 1px solid;
         color: white;
         background-color: black;
         border-radius: 20px;
+    }
+    .section1 .SignIn{
+        margin-bottom: 1vh;
     }
     .navbar .logo{
         display: none;
