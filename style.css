@@ -480,6 +480,7 @@ body{
     margin-left: 0;
     width: 99.5%;
     display: flex;
+    overflow-y: hidden;
     overflow-x:hidden ;
     
 
