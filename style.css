@@ -646,11 +646,21 @@ footer .footer_3{
         width: 100vw;
     }
     .section2{
-        overflow-x:scroll ;
+        /* overflow-x:scroll ; */
         overflow-y: hidden ;
     }
-    .section2 img {
-        width: 70vw;
+    .section2 .Trending_destination {
+        /* width: 300vw; */
+        display: flex;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        gap: 55vw;
+        
+
+    }
+    .section2 .Trending_destination img{
+        width: 80vw;
+        /* height: 70vh; */
     }
     .section3{
         height: 40vh;
