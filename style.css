@@ -645,7 +645,7 @@ footer .footer_3{
     }
     .section2{
         overflow-x:scroll ;
-        
+        overflow-y: hidden ;
     }
     .section3{
         height: 40vh;
@@ -677,6 +677,7 @@ footer .footer_3{
     }
     .section5{
         height: 90vh;
+        overflow-y: hidden;
     }
     footer{
         display: flex;
