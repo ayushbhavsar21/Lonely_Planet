@@ -649,6 +649,7 @@ footer .footer_3{
     }
     .section1 a{
         height: 1vh;
+        width: 15vw;
         display: block;
         /* position: fixed; */
         /* z-index: 20; */
@@ -657,9 +658,9 @@ footer .footer_3{
     }
     .section1 a img{
         height: 10vh;
-        width: 20vw;
+        width: 15vw;
         /* z-index: 100; */
-        margin-left: 0;
+        
     }
     .navbar{
         height: 100vh;
@@ -669,9 +670,10 @@ footer .footer_3{
         padding-top: 2vh;
         display: flex;
         flex-direction: column;
-        background-color: aliceblue;
-        height: 77vh;
-        width: 100%;
+        background-color: rgb(240,248,255,0.8);
+        
+        height: 78vh;
+        width: 85vw;
         z-index: 10;
     }
     .section1 .nav img{
@@ -690,11 +692,15 @@ footer .footer_3{
         display: none;
     }
     .section1 .box{
+        /* width: 0vw; */
         display: flex;
         overflow-x:scroll;
+        /* overflow-y: scroll; */
     }
     .section1  .box img{
         width: 100vw;
+        /* overflow-x: scroll; */
+        /* display: block; */
     }
     .section2{
         /* overflow-x:scroll ; */
