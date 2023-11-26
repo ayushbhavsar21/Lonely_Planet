@@ -670,7 +670,7 @@ footer .footer_3{
         display: flex;
         flex-direction: column;
         background-color: aliceblue;
-        height: 76vh;
+        height: 77vh;
         width: 100%;
         z-index: 10;
     }
@@ -684,7 +684,7 @@ footer .footer_3{
         border-radius: 20px;
     }
     .section1 .SignIn{
-        margin-bottom: 1vh;
+        margin-bottom: 3vh;
     }
     .navbar .logo{
         display: none;
