@@ -690,7 +690,7 @@ footer .footer_3{
         display: none;
     }
     .section1 .box{
-        
+        display: flex;
         overflow-x:scroll;
     }
     .section1  .box img{
@@ -739,6 +739,9 @@ footer .footer_3{
         font-size: small;
     }
     .section4 .section4_2 .Section4_options p{
+        width: 50vw;
+    }
+    .section4 .section4_2 .Section4_options h3{
         width: 50vw;
     }
     .section5{
