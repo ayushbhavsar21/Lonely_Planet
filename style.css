@@ -648,6 +648,7 @@ footer .footer_3{
         display: none;
     }
     .section1 a{
+        height: 1vh;
         display: block;
         /* position: fixed; */
         /* z-index: 20; */
@@ -689,6 +690,7 @@ footer .footer_3{
         display: none;
     }
     .section1 .box{
+        
         overflow-x:scroll;
     }
     .section1  .box img{
