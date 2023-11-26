@@ -629,3 +629,85 @@ footer .footer_3{
     cursor: pointer;
     /* background-color: antiquewhite; */
 }
+@media only screen and (max-width: 425px){
+   
+    .navbar .nav{
+        display: none;
+    }
+    .navbar .logo{
+        display: none;
+    }
+    .section1 .box{
+        overflow-x:scroll;
+    }
+    .section1  .box img{
+        width: 100vw;
+    }
+    .section2{
+        overflow-x:scroll ;
+        
+    }
+    .section3{
+        height: 40vh;
+    }
+    .section3 button{
+        display: none;
+    }
+    .section4{
+        flex-direction: column;
+        height: 200vh;
+        
+    }
+    .section4 .section4_1{
+        width: 80vw;
+    }
+    .section4 .section4_1 img{
+        width: 80vw;
+    }
+    .section4 .section4_2 button{
+        font-size: small;
+    }
+    .section4 .section4_2 .Section4_options{
+        width: 80vw;
+        overflow-y: hidden;
+        font-size: small;
+    }
+    .section4 .section4_2 .Section4_options p{
+        width: 50vw;
+    }
+    .section5{
+        height: 90vh;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer_1{
+        width: 80vw;
+        /* border: 1px solid; */
+    }
+    .footer_1 h1{
+        width: 80vw;
+    }
+    .footer_1 h4{
+        width: 80vw;
+    }
+    .footer_1 p{
+        width: 80vw;
+    }
+    .footer_1 .social{
+        width: 90vw;
+    }
+    .footer_1 h2{
+        width: 90vw;
+    }
+    .footer_2{
+        display: none;
+    }
+    .footer_3{
+        display: none;
+    }
+    .footer_4{
+        display: none;
+    }
+}
