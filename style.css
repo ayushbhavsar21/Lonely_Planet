@@ -649,6 +649,9 @@ footer .footer_3{
         overflow-x:scroll ;
         overflow-y: hidden ;
     }
+    .section2 img {
+        width: 70vw;
+    }
     .section3{
         height: 40vh;
     }
