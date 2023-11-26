@@ -14,13 +14,16 @@
         <div class="navbar">
             <div class="search"><img src="./assests/Search.png" alt="m">Search</div>
             <div class="logo"><img src="./assests/logo.png" alt="ice"></div>
-            <div class="nav">
+            <div class="nav" id="myLinks">
                 <button>Destination</button>
                 <button>Planning</button>
                 <button>Stories</button>
                 <button>Shop</button>
                 <button class="SignIn">SignIn</button>
             </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <img src="./assests/hamburger.png" alt="">
+              </a>            
         </div>
         <div class="quote">Discover story-worthy travel moments</div>
         <div class="box">
@@ -208,6 +211,14 @@
                 <p>Do Not Sell or Share My Personal Information</p>
         </div>
     </footer>
+    <script>function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "flex") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "flex";
+        }
+      }</script>
 </body>
 
 </html>

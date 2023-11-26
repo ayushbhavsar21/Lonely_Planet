@@ -13,6 +13,9 @@ body{
     align-items: center;
     justify-content: space-around;
 }
+.section1 a{
+    display: none;
+}
 .navbar{
     position: absolute;
     top: 0;
@@ -635,8 +638,43 @@ footer .footer_3{
 }
 @media only screen and (max-width: 425px){
    
-    .navbar .nav{
+    #myLinks{
         display: none;
+    }
+    .section1 .search{
+        display: none;
+    }
+    .section1 a{
+        display: block;
+        /* position: fixed; */
+        /* z-index: 20; */
+        /* position: absolute; */
+
+    }
+    .section1 a img{
+        height: 10vh;
+        width: 20vw;
+        /* z-index: 100; */
+        margin-left: 0;
+    }
+    .navbar{
+        height: 100vh;
+        /* width: 90vw; */
+    }
+    .section1 .nav{
+        padding-top: 2vh;
+        display: flex;
+        flex-direction: column;
+        background-color: aliceblue;
+        height: 76vh;
+        width: 100%;
+        z-index: 10;
+    }
+    .section1 .nav button{
+        border: 1px solid;
+        color: white;
+        background-color: black;
+        border-radius: 20px;
     }
     .navbar .logo{
         display: none;
