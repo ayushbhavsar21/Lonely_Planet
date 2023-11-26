@@ -15,10 +15,71 @@ body{
 .navbar{
     position: absolute;
     top: 0;
-    height: 5vh;
+    height: 10vh;
     width: 99%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    
+    display: flex;
+    justify-content: space-between;
+
 }
+
+.navbar .search{
+    margin-left: 2vw;
+    width: 10vw;
+    display: flex;
+    align-items:center ;
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+}
+.navbar .search img{
+    height: 5vh;
+    width: 5vw;
+}
+.navbar .logo{
+    width: 5vw;
+}
+.navbar .logo img{
+    width: 20vw;
+    height: 10vh;
+
+}
+.navbar .nav{
+    width: 40vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 3vw;
+}
+.navbar .nav button{
+    height: 5vh;
+    font-size: 20px;
+    color: white;
+    background-color: transparent;
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+.navbar .nav .SignIn{
+    background-color: white;
+    border-radius: 25px;
+    color: black;
+
+    padding-left: 1vw;
+    padding-right: 1vw;
+
+}
+
+    
+
+
+.navbar .nav  .SignIn:hover{
+    cursor: pointer;
+    color: white;
+    background-color: blue;
+} 
 .quote{
     position: absolute;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
